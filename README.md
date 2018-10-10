@@ -42,7 +42,7 @@ fresh_tomatoes.open_movies_page(movies)
 ```
 
 ### E-mail para contatos
-[Victor Hugo Cordeiro](victor_hugo.cordeiro@hotmail.com)
+[Victor Hugo Cordeiro] = *victor_hugo.cordeiro@hotmail.com*
 
 
 Autor do projeto: Victor Hugo Cordeiro
