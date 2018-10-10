@@ -26,7 +26,9 @@ e houve orientação dos demais profissionais da Udacity
 - Exemplo de como foi feito o codigo para colocar os filmes utilizando python
 
 ```
-
+# -*- coding: utf-8 -*-
+import media
+import fresh_tomatoes
 
 mrrobot = media.Movie("Mr Robot",
                         "n/a",
