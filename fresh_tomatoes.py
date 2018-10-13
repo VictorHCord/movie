@@ -25,7 +25,7 @@ main_page_head = '''
 
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
 
-    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script> 
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
 
 </head>
 '''
@@ -81,7 +81,6 @@ movie_tile_content = '''
 '''
 
 
-
 def create_movie_tiles_content(movies):
     # The HTML content for this section of the page
     content = ''
@@ -99,7 +98,7 @@ def create_movie_tiles_content(movies):
             title_video=movie.title,
             duration_video=movie.duration,
             date_filme=movie.date,
-            storyline_video = movie.storyline_video,
+            storyline_video=movie.storyline_video,
             poster_image_url=movie.poster_image_url,
             trailer_youtube_id=trailer_youtube_id,
 
@@ -123,4 +122,3 @@ def open_movies_page(movies):
     # open the output file in the browser (in a new tab, if possible)
     url = os.path.abspath(output_file.name)
     webbrowser.open('file://' + url, new=2)
-    
